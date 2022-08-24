@@ -69,8 +69,8 @@ HELLO MASTER ABUBAKAR ⚔️
 I AM AT YOUR SERVICE
 '''
         sendMarkup(start_string, context.bot, update.message, reply_markup)
-    else:
-        sendMarkup('NOT ALLOWED, I ONLY OBEY TO MY MASTER ABUBAKAR ⚔️', context.bot, update.message, reply_markup)
+    #else:
+        #sendMarkup('NOT ALLOWED, I ONLY OBEY TO MY MASTER ABUBAKAR ⚔️', context.bot, update.message, reply_markup)
 
 def restart(update, context):
     restart_message = sendMessage("Restarting...", context.bot, update.message)
